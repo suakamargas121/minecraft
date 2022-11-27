@@ -1,1 +1,1 @@
-worker: bin/minecraft
+web: bin/minecraft
