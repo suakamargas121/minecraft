@@ -6,8 +6,8 @@ services:
     name: servermine911
     env: docker # valid values: https://render.com/docs/yaml-spec#environment
     dockerfilePath: Dockerfile.render
-    plan: free # optional; defaults to starter
-    numInstances: 0
+    plan: pro # optional; defaults to starter
+    numInstances: 1
     envVars:
       - key: DYNU_CLIENT_ID # Imported from Heroku app
         value: a9ac5e48-ace7-4534-8cbc-e47ac718adb6
