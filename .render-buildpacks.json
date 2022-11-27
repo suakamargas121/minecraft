@@ -1,0 +1,7 @@
+{
+  "buildpacks": [
+    "heroku/python",
+    "https://github.com/heroku/heroku-buildpack-jvm-common",
+    "https://github.com/Epicfisher/heroku-buildpack-minecraft"
+  ]
+}
